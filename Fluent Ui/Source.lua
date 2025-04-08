@@ -6745,7 +6745,7 @@ local InterfaceManager = {} do
 		})
 
 		section:AddSlider("CooldownDragging", {
-			Title = "GUI dragging cooldown",
+			Title = "UI Dragging CD",
 			Default = 1,
 			Min = 0,
 			Max = 3,
