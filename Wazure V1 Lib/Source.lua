@@ -2136,6 +2136,9 @@ function WazureV1:Start(GuiConfig)
 			local Dropdown = Instance.new("Frame");
 			local UICorner15 = Instance.new("UICorner");
 			local DropTop = Instance.new("Frame");
+
+			-- Ensure TweenService is defined
+			local TweenService = game:GetService("TweenService")
 			local DropFrame = Instance.new("Frame");
 			local UICorner16 = Instance.new("UICorner");
 			local UIStroke6 = Instance.new("UIStroke");
